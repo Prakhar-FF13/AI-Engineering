@@ -6,10 +6,13 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "dotenv>=0.9.9",
+    "fastmcp>=3.4.11",
     "langchain>=1.4.9",
+    "langchain-mcp-adapters>=0.3.2",
     "langchain-openrouter>=0.2.9",
     "notebook>=7.6.5",
     "openai>=3.46.0",
+    "pandas>=3.1.1",
     "pydantic-ai>=2.66.0",
     "pydantic[email]>=2.14.3",
 ]
